@@ -46,8 +46,13 @@ header {
     margin: 0 auto;
     max-width: 1025px;
     min-height: 100px;
-
 }
+
+header a img {
+    max-width: 80px;
+    min-height: 80px;
+}
+
 
 .box {
     border: 5px solid darkblue;
@@ -63,8 +68,8 @@ nav a:hover {
 }
 
 .book, .join {
-    background-color: #fcfbfb;
-    color: #d9c2a3;
+    background-color: rgba(174, 135, 135, 0.95);
+    color: rgba(27, 28, 27, 0.7);
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -99,9 +104,9 @@ footer {
 
 nav a {
     /*color: #d9c2a3;*/
-    color: rgb(251, 251, 252);
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 35px;
+    padding: 10px;
 }
 
 .home-title {
@@ -184,3 +189,5 @@ main div {
 main section {
     margin: 200px 0;
 }
+
+
