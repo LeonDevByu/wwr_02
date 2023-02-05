@@ -28,10 +28,24 @@ main section {
 
 body {
     background-color: #fbfbfc;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
     background-color: rgba(27, 28, 27, 0.7);
+    /*border: 5px solid darkblue;*/
+    /*max-height: 150px;*/
+    /*width: 200px;*/
+    margin: 0 auto;
+    max-width: 1025px;
+    min-height: 100px;
 
 }
 
@@ -52,6 +66,10 @@ nav a:hover {
     background-color: #fcfbfb;
     color: #d9c2a3;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -64,25 +82,36 @@ nav a:hover {
 }
 
 .msg {
-    background-color: #a9a4a4;
+    background-color: rgba(27, 28, 27, 0.7);
+    /*background-color: #a9a4a4;*/
+    line-height: 1.5em;
+    padding: 35px;
 
 }
 
 footer {
-    background-color: #a9a4a4;
+    background-color: rgba(27, 28, 27, 0.7);
+    /*background-color: #a9a4a4;*/
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 
 nav a {
-    color: #d9c2a3;
+    /*color: #d9c2a3;*/
+    color: rgb(251, 251, 252);
     text-decoration: none;
+    padding: 35px;
 }
 
 .home-title {
     color: #9d1414;
+    /*font-family: 'Rock Salt', 'Bradley Hand', sans-serif;*/
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
-    color: #123ecb;
+    color: rgba(27, 28, 27, 0.7);
 }
 
 
@@ -91,11 +120,13 @@ h4 {
 }
 .msg p {
     color: #ffffff;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 
 footer a {
-    color: #123ecb;
+    color: rgb(251, 251, 252);
     text-decoration: none;
 }
 
@@ -110,13 +141,46 @@ nav a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 
 footer p {
     font-size: 1.2em;
+    color: rgb(251, 251, 252);
 }
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+#logo_link   {
+    padding-top: 5px;
+}
+
+footer .social img   {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card   {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img{
+    box-sizing: border-box;
+}
+
+main div {
+    margin: 200px 0;
+}
+
+main div {
+    margin: 200px 0;
+}
+
+main section {
+    margin: 200px 0;
 }
